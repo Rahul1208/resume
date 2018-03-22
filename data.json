@@ -1,0 +1,48 @@
+{
+  "career":{
+  "info":"To enhance my working capacities, professional skills and business efficiencies to serve my organization in the best possible way with sheer determination and commitment."
+  },
+  "education":[
+    {
+      "degree":"S.S.C",
+      "school":"Z.P.H.School",
+      "data":["2013","9.5"]
+    },
+    {
+      "degree":"Inter",
+      "school":"Smt.Theressa junior college",
+      "data":["2015","91%"]
+    },
+    {
+      "degree":"B-Tech(C.S.E)",
+      "school":"G.Pullaiah College of Engineering and Technology",
+      "data":["2015-2019","70%"]
+    }
+  ],"skills":[
+    {
+      "name":"Languages",
+      "info":["R","C#","Java","Python","C++","C","Php"]
+    },
+    {
+      "name":"Operating System",
+      "info":["win-10","Fedora","redHat","ubuntu"]
+    },
+    {
+      "name":"Data Bases",
+      "info":["MySql","mongoDB","oracle","PDO"]
+    },
+    {
+      "name":"Web Technologies",
+      "info":["HTML","JavaScript","CSS"]
+    },
+    {
+      "name":"FrameWorks",
+      "info":[".Net","Bootstrap","CodeIgniter"]
+    },
+    {
+      "name":"Libraries",
+      "info":["Jquery"]
+    }
+
+  ]
+}

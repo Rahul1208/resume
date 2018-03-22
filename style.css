@@ -1,0 +1,129 @@
+body
+{
+  background-image:url("photo.jpg");
+color:white;
+  }
+  table{
+    width:100%;
+  }
+  td{
+    padding:2%;
+  }
+/* tr:nth-child(even)
+  {
+    background-color:green;
+  } */
+img{
+  border-radius:80%;
+  width:200px;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-style: ridge;
+
+}
+  .flex-parent
+  {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.profile
+{
+width:30%;
+padding:2%;
+height:50%;
+margin:2%;
+border:2px solid #000;
+border-radius: 20px;
+box-shadow: 3px 3px 3px white;
+}
+.content
+{
+  width:100%;
+
+  padding:2%;
+  margin:2%;
+  border:2px solid #000;
+  border-radius:20px;
+  box-shadow: 3px 3px 3px white;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .flex-parent
+  {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.profile
+{
+width:95%;
+background:#fff;
+height:50%;
+padding:2%;
+margin:2%;
+border:2px solid #000;
+}
+.content
+{
+  width:95%;
+  background:#fff;
+  padding:2%;
+  margin:2%;
+  border:2px solid #000;
+border-radius:20px;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .flex-parent
+  {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  }
+  .profile
+  {
+  width:100%;
+  padding:2%;
+  height:50%;
+  margin:2%;
+  border:2px solid #000;
+  }
+  .content
+  {
+  width:100%;
+
+  padding:2%;
+  margin:2%;
+  border:2px solid #000;
+border-radius:20px;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-parent
+  {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  }
+  .profile
+  {
+  width:100%;
+  padding:2%;
+  height:50%;
+  margin:2%;
+  border:2px solid #000;
+  }
+  .content
+  {
+  width:100%;
+
+  padding:2%;
+  margin:2%;
+  border:2px solid #000;
+border-radius:20px;
+  }
+}
